@@ -1,0 +1,23 @@
+.manage-header{
+  background-color: #e5e5e5!important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px!important;
+  text-align: center;
+  color: #042c62!important;
+  padding-bottom: 0px!important;
+}
+
+.m-list{
+  font-size: 25px;
+}
+
+.manage-body{
+  background-color: #e5e5e5!important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px!important;
+  text-align: left;
+  color: #042c62!important;
+  padding-bottom: 0px!important;
+}

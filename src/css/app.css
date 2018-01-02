@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+.navbar{
+  margin-bottom: 0px!important;
+  background-color: #032149!important;
+}
+
+.logo{
+  font-family: 'Cookie', cursive;
+  font-size: 3em!important;
+  color: white!important;
+}
+
+.navbar-brand{
+  color: red!important;
+}
+
+.link{
+  color: #e5e5e5;
+}
+
+.link:hover{
+  color:	#e5e5e5;
+  text-decoration: underline;
+}
+
+.link:active{
+  color:	#e5e5e5;
+}
+
+.link:focus{
+  color:	#e5e5e5;
+}
+
+.navbar-collapse{
+  overflow: hidden!important;
+}

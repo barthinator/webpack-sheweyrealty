@@ -1,0 +1,15 @@
+.search-header{
+  background-color: #e5e5e5!important;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 20px!important;
+  text-align: center;
+  color: #042c62!important;
+  padding-bottom: 0px!important;
+}
+
+.listings{
+  border: none;
+  width: 100%;
+  height: 500px;
+}
