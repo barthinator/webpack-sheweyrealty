@@ -2,25 +2,40 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import {Navbar, Nav, NavItem, Badge, MenuItem} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { IndexLinkContainer } from 'react-router-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+
+
 
 const Navbarcollpase = () => (
-  <Navbar collapseOnSelect>
+  <Navbar collapseOnSelect id="navbar">
+  <div className="container">
     <Navbar.Header>
       <Navbar.Brand className="logo">
-        <a><Link to='/' className="link header">Shewey</Link></a>
+      <Link className="navbar-brand" to="/">Shewey</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse className="navbar-collapse">
-      <Nav>
-        <NavItem eventKey={1}><Link to='/' className="link">Home</Link></NavItem>
-        <NavItem eventKey={2}><Link to='/agents' className="link">Agents</Link></NavItem>
-        <NavItem eventKey={3}><Link to='/search' className="link">Listings</Link></NavItem>
-        <li><a className='link' href="https://rentalmgmtinc.appfolio.com/connect">Pay Rent</a></li>
-        <NavItem eventKey={5}><Link to='/contact' className="link">Contact</Link></NavItem>
-        <NavItem eventKey={6}><Link to='/manage' className="link">Property Management</Link></NavItem>
+      <Nav id="nav">
+      <IndexLinkContainer activeClassName="link" className="link" exact to="/">
+          <NavItem><div className="link">Home</div></NavItem>
+      </IndexLinkContainer>
+      <LinkContainer activeClassName="link" className="link" exact to="/agents">
+            <NavItem><div className="link">Agents</div></NavItem>
+      </LinkContainer>
+      <LinkContainer activeClassName="link" className="link" exact to="/search">
+          <NavItem><div className="link">Listings</div></NavItem>
+      </LinkContainer>
+      <LinkContainer activeClassName="link" className="link" exact to="/manage">
+          <NavItem><div className="link">Property Management</div></NavItem>
+      </LinkContainer>
+      <LinkContainer activeClassName="link" className="link" exact to="/contact">
+            <NavItem><div className="link">Contact</div></NavItem>
+      </LinkContainer>
       </Nav>
     </Navbar.Collapse>
+    </div>
   </Navbar>
 );
 

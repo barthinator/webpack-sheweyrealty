@@ -32,6 +32,7 @@ class Agents extends Component {
           <img src={Candace} alt="Avatar" className="img-employee"/>
           <div className="container">
             <h4>Candace Bartholomew</h4>
+            <p>(209)-777-8441</p>
             <p>Realtor</p>
           </div>
         </div>
@@ -40,6 +41,7 @@ class Agents extends Component {
           <img src={Avatar} alt="Avatar" className="img-employee"/>
           <div className="container">
             <h4>Celina Garcia</h4>
+            <p>(209)-631-2818</p>
             <p>Realtor</p>
           </div>
         </div>
