@@ -3,6 +3,7 @@
 .navbar{
   margin-bottom: 0px!important;
   background-color: #032149!important;
+  z-index: 2;
 }
 
 .logo{
@@ -11,27 +12,25 @@
   color: white!important;
 }
 
-.navbar-brand{
-  color: red!important;
+.link{
+  color: #e5e5e5!important;
+  font-size: 1.2em;;
 }
 
-.link{
-  color: #e5e5e5;
+.header{
+  font-size: 0.9em;
+  text-decoration: none!important;
 }
 
 .link:hover{
-  color:	#e5e5e5;
+  color:	#e5e5e5!important;
   text-decoration: underline;
 }
 
 .link:active{
-  color:	#e5e5e5;
+  color:	#e5e5e5!important;
 }
 
 .link:focus{
-  color:	#e5e5e5;
-}
-
-.navbar-collapse{
-  overflow: hidden!important;
+  color:	#e5e5e5!important;
 }
