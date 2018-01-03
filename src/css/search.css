@@ -8,6 +8,18 @@
   padding-bottom: 0px!important;
 }
 
+.rent-link{
+  border: 0.1em solid #042c62;
+  border-radius: 5%;
+  font-size: 2em;
+  padding: 10px;
+  background-color: white;
+}
+
+.rent-link:hover{
+  text-decoration: none;
+}
+
 .listings{
   border: none;
   width: 100%;

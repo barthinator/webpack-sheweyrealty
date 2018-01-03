@@ -18,21 +18,22 @@ const Navbarcollpase = () => (
     </Navbar.Header>
     <Navbar.Collapse className="navbar-collapse">
       <Nav id="nav">
-      <IndexLinkContainer activeClassName="link" className="link" exact to="/">
-          <NavItem><div className="link">Home</div></NavItem>
-      </IndexLinkContainer>
-      <LinkContainer activeClassName="link" className="link" exact to="/agents">
-            <NavItem><div className="link">Agents</div></NavItem>
-      </LinkContainer>
-      <LinkContainer activeClassName="link" className="link" exact to="/search">
-          <NavItem><div className="link">Listings</div></NavItem>
-      </LinkContainer>
-      <LinkContainer activeClassName="link" className="link" exact to="/manage">
-          <NavItem><div className="link">Property Management</div></NavItem>
-      </LinkContainer>
-      <LinkContainer activeClassName="link" className="link" exact to="/contact">
-            <NavItem><div className="link">Contact</div></NavItem>
-      </LinkContainer>
+        <IndexLinkContainer activeClassName="link" className="link" exact to="/">
+            <NavItem><div className="link">Home</div></NavItem>
+        </IndexLinkContainer>
+        <LinkContainer activeClassName="link" className="link" exact to="/agents">
+              <NavItem><div className="link">Agents</div></NavItem>
+        </LinkContainer>
+        <LinkContainer activeClassName="link" className="link" exact to="/search">
+            <NavItem><div className="link">Listings</div></NavItem>
+        </LinkContainer>
+              <LinkContainer activeClassName="link" className="link" exact to="/manage">
+            <NavItem><div className="link">Property Management</div></NavItem>
+        </LinkContainer>
+        <LinkContainer activeClassName="link" className="link" exact to="/contact">
+              <NavItem><div className="link">Contact</div></NavItem>
+        </LinkContainer>
+
       </Nav>
     </Navbar.Collapse>
     </div>

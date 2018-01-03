@@ -11,6 +11,7 @@ const Contact = () => (
   <div className="Contact-Us">
 
     <div className="jumbotron manage-header">
+      <a className="rent-link" href="https://rentalmgmtinc.appfolio.com/connect"> Pay Rent </a>
       <h1>Property Management Services</h1>
     </div>
 
