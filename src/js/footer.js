@@ -17,7 +17,7 @@ class Footer extends Component {
         <p><i className="fa fa-map-pin"></i> 8 W. 20th - 95340, Merced, California</p>
         <p><i className="fa fa-phone"></i> Phone Sales (USA) : +1 209-383-1666</p>
         <p><i className="fa fa-phone"></i> Phone Rental (USA) : +1 209-383-4288</p>
-        <p><i className="fa fa-envelope"></i> E-mail : vicky@sheweyrealty.com</p>
+        <p><i className="fa fa-envelope"></i> E-mail : vicki@sheweyrealty.com</p>
 
       </div>
       <div className="col-md-2 col-sm-6 paddingtop-bottom">

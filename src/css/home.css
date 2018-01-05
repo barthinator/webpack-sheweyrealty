@@ -60,6 +60,7 @@
   margin-left: 1em;
   margin-right: 0.1em;
   width: 100%;
+  max-width: 1200px;
 }
 
 .middle-text{

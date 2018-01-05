@@ -30,7 +30,7 @@ const Contact = () => (
       </div>
       <div className="col-lg-12">
       <h3>Email Us</h3>
-        <p>Sales: <a href="mailto:Vicky@Sheweyrealty.com">Vicky@Sheweyrealty.com</a></p>
+        <p>Sales: <a href="mailto:Vicki@Sheweyrealty.com">Vicki@Sheweyrealty.com</a></p>
       </div>
     </div>
 
