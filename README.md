@@ -17,7 +17,7 @@ brew install node
 ### Setup
 
 ```
-cd webpck shewey-realty
+cd webpck-sheweyrealty
 npm install
 ```
 
@@ -43,7 +43,7 @@ npm run dev
 
 wait...
 
-it should be hosted on localhost:/8080
+It should be hosted on localhost:8080
 
 
 ## Authors
