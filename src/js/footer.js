@@ -18,7 +18,8 @@ class Footer extends Component {
         <p><i className="fa fa-phone"></i> Phone Sales (USA) : +1 209-383-1666</p>
         <p><i className="fa fa-phone"></i> Phone Rental (USA) : +1 209-383-4288</p>
         <p><i className="fa fa-envelope"></i> E-mail : vicki@sheweyrealty.com</p>
-
+        <p><i className="fa fa-envelope"></i> Developed By: David Bartholomew</p>
+        <p><i className="fa fa-envelope"></i> See more <a href="http://www.davidroybartholomew.com">here</a> </p>
       </div>
       <div className="col-md-2 col-sm-6 paddingtop-bottom">
         <h6 className="heading7">Links</h6>

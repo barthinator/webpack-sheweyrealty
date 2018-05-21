@@ -27,13 +27,15 @@ const Navbarcollpase = () => (
         <LinkContainer activeClassName="link" className="link" exact to="/search">
             <NavItem><div className="link">Listings</div></NavItem>
         </LinkContainer>
-              <LinkContainer activeClassName="link" className="link" exact to="/manage">
+        <LinkContainer activeClassName="link" className="link" exact to="/sales">
+              <NavItem><div className="link">Homes for Sale</div></NavItem>
+        </LinkContainer>
+        <LinkContainer activeClassName="link" className="link" exact to="/manage">
             <NavItem><div className="link">Property Management</div></NavItem>
         </LinkContainer>
         <LinkContainer activeClassName="link" className="link" exact to="/contact">
               <NavItem><div className="link">Contact</div></NavItem>
         </LinkContainer>
-
       </Nav>
     </Navbar.Collapse>
     </div>

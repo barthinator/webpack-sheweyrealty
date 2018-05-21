@@ -5,6 +5,7 @@ import Agents from './agents'
 import Contact from './contact'
 import Search from './search'
 import Manage from './manage'
+import Sales from './sales'
 
 
 // The Main component renders one of the three provided
@@ -20,6 +21,7 @@ const Main = () => (
       <Route path='/contact' component={Contact}/>
       <Route path='/search' component={Search}/>
       <Route path='/manage' component={Manage}/>
+      <Route path='/sales' component={Sales}/>
     </Switch>
   </main>
 )
