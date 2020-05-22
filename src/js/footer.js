@@ -14,7 +14,7 @@ class Footer extends Component {
     <div className="row">
       <div className="col-md-4 col-sm-6 footerleft ">
         <div className="logofooter"> Shewey Realty Inc.</div>
-        <p><i className="fa fa-map-pin"></i> 8 W. 20th - 95340, Merced, California</p>
+        <p><i className="fa fa-map-pin"></i> 6 W. 20th - 95340, Merced, California</p>
         <p><i className="fa fa-phone"></i> Phone Sales (USA) : +1 209-383-1666</p>
         <p><i className="fa fa-phone"></i> Phone Rental (USA) : +1 209-383-4288</p>
         <p><i className="fa fa-envelope"></i> E-mail : vicki@sheweyrealty.com</p>

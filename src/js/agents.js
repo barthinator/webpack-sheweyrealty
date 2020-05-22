@@ -22,20 +22,11 @@ class Agents extends Component {
       <div className="jumbotron employees">
 
         <div className="card">
-          <img src={Phillip} alt="Phillip Snowberger" className="img-employee"/>
-          <div className="container">
-            <h4>Phillip Snowberger</h4>
-            <p>(209)-617-2515</p>
-            <p>Realtor</p>
-          </div>
-        </div>
-
-        <div className="card">
           <img src={Candace} alt="Candace Bartholomew" className="img-employee"/>
           <div className="container">
             <h4>Candace Bartholomew</h4>
             <p>(209)-777-8441</p>
-            <p>Realtor</p>
+            <p><b>Realtor</b> DRE# 02030649</p>
           </div>
         </div>
 
@@ -44,7 +35,7 @@ class Agents extends Component {
           <div className="container">
             <h4>Celina Garcia</h4>
             <p>(209)-631-2818</p>
-            <p>Realtor</p>
+            <p><b>Realtor</b> DRE# 02043330</p>
           </div>
         </div>
 
@@ -53,7 +44,7 @@ class Agents extends Component {
           <div className="container">
             <h4>Jerry Shewey</h4>
             <p>(209)-383-1666</p>
-            <p>Realtor and Broker</p>
+            <p><b>Broker</b> DRE# 01236864</p>
           </div>
         </div>
 

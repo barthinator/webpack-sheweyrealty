@@ -25,7 +25,7 @@ const Navbarcollpase = () => (
               <NavItem><div className="link">Agents</div></NavItem>
         </LinkContainer>
         <LinkContainer activeClassName="link" className="link" exact to="/search">
-            <NavItem><div className="link">Listings</div></NavItem>
+            <NavItem><div className="link">Rentals</div></NavItem>
         </LinkContainer>
         <LinkContainer activeClassName="link" className="link" exact to="/sales">
               <NavItem><div className="link">Homes for Sale</div></NavItem>

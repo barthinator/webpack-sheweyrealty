@@ -18,7 +18,7 @@ const Contact = () => (
       <div className="col-lg-6">
         <h3>Our Location</h3>
         <p>Shewey Realty</p>
-        <p>8 W. 20th St.</p>
+        <p>6 W. 20th St.</p>
 
         <p>Merced, CA 95340</p>
       </div>

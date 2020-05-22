@@ -31,6 +31,7 @@ const Home = () => (
       <div className="col-sm-4 header-container">
         <h1 className="header-text">Shewey</h1>
         <h1 className="header-text-lower"> Realty Inc.</h1>
+        <h1 className="header-text-lower"> DRE# 01193199</h1>
       </div>
 
       <div className="about-divide">
