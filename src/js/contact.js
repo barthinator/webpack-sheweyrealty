@@ -11,8 +11,7 @@ const Contact = () => (
 <div className="jumbotron contact-body">
   <div className="row">
     <div className="col-lg-4">
-      <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.3030020112435!2d-120.47531269450742!3d37.30145413384356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809143043feb109d%3A0x1b295661dc9268a5!2s8+W+20th+St%2C+Merced%2C+CA+95340!5e0!3m2!1sen!2sus!4v1514878753277"></iframe>
-    </div>
+    <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.1806004349806!2d-120.47507118953983!3d37.30142988000161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809143043f12db81%3A0x9800f1285ce6317a!2s6%20W%2020th%20St%2C%20Merced%2C%20CA%2095340!5e0!3m2!1sen!2sus!4v1590179829275!5m2!1sen!2sus"></iframe>    </div>
     <div className="col-lg-8">
       <p>If you have any questions, comments, give us a call!</p>
       <div className="col-lg-6">

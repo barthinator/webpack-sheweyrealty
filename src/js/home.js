@@ -19,7 +19,7 @@ var end = "In January of 2012 Jerry took over leadership of the the business fro
 + "The stability of the firm is due to our hardworking and loyal employees in the office,"
 + " most of whom have spent most or all of their careers with us. It is this dedication, hard work and pride which"
 + " have given Rental Management and Shewey Realty the needed foundation to survive numerous economic downturns and"
-+ "recessions which have allowed us to proudly serve the city and country of Merced for 38 years and counting."
++ " recessions which have allowed us to proudly serve the city and county of Merced for over 4 decades."
 
 const Home = () => (
 
